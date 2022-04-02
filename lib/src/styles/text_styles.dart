@@ -10,7 +10,7 @@ class TextStyles {
 
   static _toStyle(double fontSize, double height, FontWeight fontWeight,
       double letterSpacing,
-      {Color color = SystemColors.grey1000}) {
+      {Color? color}) {
     return TextStyle(
       fontFamily: TextStyles.fontFamily,
       color: color,
