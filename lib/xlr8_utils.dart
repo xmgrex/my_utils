@@ -1,4 +1,4 @@
-library my_utils;
+library xlr8_utils;
 
 export 'src/logger.dart';
 export 'src/transition.dart';

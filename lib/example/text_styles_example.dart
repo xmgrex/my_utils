@@ -1,11 +1,3 @@
-## Features
-Personal package
-
-## Getting started
-
-## Usage
-
-```dart
 import 'package:XLR8_utils/xlr8_utils.dart';
 import 'package:flutter/material.dart';
 
@@ -20,7 +12,7 @@ class TextStyleExample extends StatelessWidget {
         ///
         /// User as:
         /// Text("Hello!", styles: TextStyles.title.large.white);
-        /// 
+        ///
         Text('title large', style: TextStyles.title.large),
         Text('title medium', style: TextStyles.title),
         Text('title small', style: TextStyles.title.small),
@@ -32,8 +24,3 @@ class TextStyleExample extends StatelessWidget {
     );
   }
 }
-
-```
-
-## Additional information
-

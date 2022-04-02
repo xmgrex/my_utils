@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'colors.dart';
 
 /// Use as:
-/// Text("Hello!", styles: MyTextStyles.title.large.white);
+/// Text("Hello!", styles: TextStyles.title.large.white);
 class TextStyles {
   TextStyles._();
 
@@ -21,6 +21,12 @@ class TextStyles {
       letterSpacing: letterSpacing,
     );
   }
+
+  static final headline = _MyTextStyleSet(
+    large: _toStyle(28, 28, FontWeight.w400, 0),
+    medium: _toStyle(26, 24, FontWeight.w500, 0.15),
+    small: _toStyle(24, 20, FontWeight.w500, 0.1),
+  );
 
   static final title = _MyTextStyleSet(
     large: _toStyle(22, 28, FontWeight.w400, 0),
