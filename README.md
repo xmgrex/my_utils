@@ -6,7 +6,6 @@ Personal package
 ## Usage
 
 ```dart
-import 'package:XLR8_utils/xlr8_utils.dart';
 import 'package:flutter/material.dart';
 
 class TextStyleExample extends StatelessWidget {

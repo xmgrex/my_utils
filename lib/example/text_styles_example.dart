@@ -1,5 +1,6 @@
-import 'package:XLR8_utils/xlr8_utils.dart';
 import 'package:flutter/material.dart';
+
+import '../my_utils.dart';
 
 class TextStyleExample extends StatelessWidget {
   const TextStyleExample({Key? key}) : super(key: key);

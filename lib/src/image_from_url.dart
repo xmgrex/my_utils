@@ -1,6 +1,7 @@
-import 'package:XLR8_utils/xlr8_utils.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+
+import '../my_utils.dart';
 
 
 class ImageFromUrl extends StatelessWidget {

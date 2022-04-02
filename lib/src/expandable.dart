@@ -1,6 +1,7 @@
-import 'package:XLR8_utils/xlr8_utils.dart';
 import 'package:expandable/expandable.dart';
 import 'package:flutter/material.dart';
+
+import '../my_utils.dart';
 
 final shape = RoundedRectangleBorder(
   borderRadius: BorderRadius.circular(0),

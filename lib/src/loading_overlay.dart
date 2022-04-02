@@ -1,7 +1,8 @@
-import 'package:XLR8_utils/xlr8_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
 import 'package:loading_overlay/loading_overlay.dart' as loading_overlay;
+
+import '../my_utils.dart';
 
 class LoadingOverlay extends StatelessWidget {
   const LoadingOverlay(
