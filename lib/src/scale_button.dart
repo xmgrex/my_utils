@@ -25,7 +25,6 @@ class ScaleButton extends StatelessWidget {
     return ScaleTap(
       enableFeedback: false,
       duration: const Duration(milliseconds: 300),
-      scaleMinValue: .8,
       onPressed: onPressed,
       child: AnimatedContainer(
         alignment: Alignment.bottomCenter,
