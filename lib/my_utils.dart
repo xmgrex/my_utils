@@ -13,3 +13,4 @@ export 'src/transition.dart';
 export 'src/expandable.dart';
 export 'src/image_from_url.dart';
 export 'src/platform_modal_bottom_sheet.dart';
+export 'src/icons.dart';
