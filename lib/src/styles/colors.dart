@@ -13,6 +13,7 @@ class SystemColors {
   static const grey200 = Color(0xFFEEEEEE);
   static const grey100 = Color(0xFFf5f5f5);
   static const grey50 = Color(0xFFfafafa);
+  static const grey0 = Color(0xFFFFFFFF);
   static const warning = Color(0xFFFFD335);
   static const success = Color(0xFF34c759);
   static const error = Colors.red;
