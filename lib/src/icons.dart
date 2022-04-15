@@ -35,5 +35,6 @@ class UtilIcons {
   static const filter = FluentSystemIcons.ic_fluent_filter_filled;
   static const eyeHide = FluentSystemIcons.ic_fluent_eye_hide_regular;
   static const eyeShow = FluentSystemIcons.ic_fluent_eye_show_regular;
+  static const moreVertical = FluentSystemIcons.ic_fluent_more_vertical_filled;
 
 }
