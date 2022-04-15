@@ -3,6 +3,12 @@ import 'package:flutter/material.dart';
 
 import '../my_utils.dart';
 
+class OverrideExpandableController extends ExpandableController {
+  OverrideExpandableController._();
+
+  static final instance = OverrideExpandableController._();
+}
+
 final shape = RoundedRectangleBorder(
   borderRadius: BorderRadius.circular(0),
 );
