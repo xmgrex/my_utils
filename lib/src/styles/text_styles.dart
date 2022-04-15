@@ -10,7 +10,7 @@ class TextStyles {
 
   static _toStyle(double fontSize, double height, FontWeight fontWeight,
       double letterSpacing,
-      {Color? color}) {
+      {Color? color, TextDecoration? decoration}) {
     return TextStyle(
       fontFamily: TextStyles.fontFamily,
       color: color,
@@ -19,6 +19,7 @@ class TextStyles {
       // height: height / fontSize,
       fontWeight: fontWeight,
       letterSpacing: letterSpacing,
+      decoration: decoration,
     );
   }
 
@@ -93,6 +94,8 @@ class _MyTextStyle extends TextStyle {
   _MyTextStyle get warning => _MyTextStyle(copyWith(color: SystemColors.warning));
 
   _MyTextStyle get bold => _MyTextStyle(copyWith(fontWeight: FontWeight.w700));
+
+  _MyTextStyle get underline => _MyTextStyle(copyWith(decoration: TextDecoration.underline));
 }
 
 class _MyTextStyleSet extends _MyTextStyle {
