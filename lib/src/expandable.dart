@@ -1,7 +1,6 @@
 import 'package:expandable/expandable.dart';
 import 'package:flutter/material.dart';
 
-import '../my_utils.dart';
 
 class OverrideExpandableController extends ExpandableController {
   OverrideExpandableController._();
@@ -16,9 +15,8 @@ final shape = RoundedRectangleBorder(
 class Expandable extends StatelessWidget {
   const Expandable(
       {required this.child,
+      required this.header,
       required this.isExpand,
-      required this.headerTitle,
-      this.headerStyle,
       required this.expandableController,
       this.color,
       this.iconColor,
@@ -27,9 +25,8 @@ class Expandable extends StatelessWidget {
       : super(key: key);
 
   final Widget child;
+  final Widget header;
   final bool isExpand;
-  final String headerTitle;
-  final TextStyle? headerStyle;
   final ExpandableController expandableController;
   final Color? color;
   final Color? iconColor;
@@ -54,10 +51,7 @@ class Expandable extends StatelessWidget {
                 tapHeaderToExpand: false,
                 headerAlignment: ExpandablePanelHeaderAlignment.center,
               ),
-        header: Padding(
-          padding: const EdgeInsets.only(left: 24, top: 10, bottom: 10),
-          child: Text(headerTitle, style: headerStyle ?? TextStyles.label.black),
-        ),
+        header: header,
         collapsed: Container(),
         expanded: Card(
           elevation: elevation ?? 0.0,
