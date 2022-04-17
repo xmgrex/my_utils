@@ -28,6 +28,7 @@ class UtilIcons {
   static const search = FluentSystemIcons.ic_fluent_search_filled;
   static const minusCircle = Icons.remove_circle_outline;
   static const plusCircle = Icons.add_circle_outline;
+  static const add = Icons.add_rounded;
   static const person = FluentSystemIcons.ic_fluent_person_filled;
   static const personOutline = FluentSystemIcons.ic_fluent_person_regular;
   static const clipboard = FluentSystemIcons.ic_fluent_clipboard_text_filled;

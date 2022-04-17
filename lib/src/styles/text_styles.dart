@@ -3,6 +3,7 @@ import 'colors.dart';
 
 /// Use as:
 /// Text("Hello!", styles: TextStyles.title.large.white);
+///
 class TextStyles {
   TextStyles._();
 
